@@ -1,0 +1,90 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 30px;
+}
+
+.logo{
+    margin-top: 2.6px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.nav_links{
+    display: flex;
+    gap: 43px;
+    margin-top: 2.6px;
+}
+
+.nav_links a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.3sec;
+}
+
+.nav_links a:hover{
+    color: blue;
+}
+
+.hello{
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 35px;
+     padding-top: 100px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.hello img{
+    margin-right: 0px;
+    border-radius: 8px;
+}
+
+.media_logo{
+    display: flex;
+    gap: 22px;
+    padding-left: 90px;
+    margin-top: 56px;
+    height: 0px;
+    width: 0px;
+}
+
+.linkedin i{
+    color: black;
+    font-size: 25px;
+    transition: color 0.3sec;
+}
+
+.linkedin i:hover{
+    color: blue;
+}
+
+.github i{
+    color: black;
+    font-size: 25px;
+    transition: color 0.3sec;
+}
+
+.github i:hover{
+    color: blue;
+}
+
+.instagram i{
+    color: black;
+    font-size: 25px;
+    transition: color 0.3sec;
+}
+
+.instagram i:hover{
+    color: blue;
+}
+
+h2{
+text-align: center;
+font-size: 40px;
+margin-top: 50px;
+}
